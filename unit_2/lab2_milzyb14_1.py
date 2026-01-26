@@ -5,3 +5,8 @@
     Starter code: None
     Date: September 12, 2023
 '''
+
+welcome_message = "Welcome to the Tip Your Server or Bartender Calculator!"
+bill_total = float(input("Please enter the total bill amount: $"))
+welcome_screen = f"{welcome_message} + {bill_total:.2f}"
+print(welcome_screen)
