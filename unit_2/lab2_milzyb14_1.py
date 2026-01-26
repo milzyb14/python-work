@@ -19,6 +19,4 @@ final_total_15 = bill_total + tip_15
 final_total_20 = bill_total + tip_20
 print(f"\nThe total bill including a 15% tip would be: ${final_total_15:.2f}")
 print(f"\nThe total bill including a 20% tip would be: ${final_total_20:.2f}")    
-
-welcome_screen = f"{bill_total:.2f}"
-print(welcome_screen)
+print("\nThank you for using the Tip Your Server or Bartender Calculator! Have a great day!")
