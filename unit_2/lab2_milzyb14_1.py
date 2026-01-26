@@ -10,6 +10,7 @@ welcome_message = "Welcome to the Tip Your Server or Bartender Calculator!"
 print(welcome_message)
 
 bill_total = float(input("Please enter the total bill amount: $"))
-
+tip_15 = bill_total * 0.15
+tip_20 = bill_total * 0.20
 welcome_screen = f"{bill_total:.2f}"
 print(welcome_screen)
