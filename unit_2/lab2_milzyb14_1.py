@@ -11,5 +11,5 @@ print(welcome_message)
 
 bill_total = float(input("Please enter the total bill amount: $"))
 
-welcome_screen = f"{welcome_message} {bill_total:.2f}"
+welcome_screen = f"{bill_total:.2f}"
 print(welcome_screen)
