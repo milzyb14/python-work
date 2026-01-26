@@ -12,11 +12,11 @@ print(welcome_message)
 bill_total = float(input("Please enter the total bill amount: $"))
 tip_15 = bill_total * 0.15
 tip_20 = bill_total * 0.20
-print(f"\nA 15% tip would be: ${tip_15:.2f}")
-print(f"\nA 20% tip would be: ${tip_20:.2f}")
+print(f"\nA 15% tip would be: ${tip_15:,.2f}")
+print(f"\nA 20% tip would be: ${tip_20:,.2f}")
 
 final_total_15 = bill_total + tip_15
 final_total_20 = bill_total + tip_20
-print(f"\nThe total bill including a 15% tip would be: ${final_total_15:.2f}")
-print(f"\nThe total bill including a 20% tip would be: ${final_total_20:.2f}")    
+print(f"\nThe total bill including a 15% tip would be: ${final_total_15:,.2f}")
+print(f"\nThe total bill including a 20% tip would be: ${final_total_20:,.2f}")    
 print("\nThank you for using the Tip Your Server or Bartender Calculator! Have a great day!")
